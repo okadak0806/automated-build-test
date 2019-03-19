@@ -1,2 +1,4 @@
-FROM dockersamples/static-site
-ENV AUTHOR="K.Okadadadada"
+FROM python:latest
+
+RUN pip install numpy numpy-stl
+
